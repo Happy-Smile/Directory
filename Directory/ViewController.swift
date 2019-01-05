@@ -14,10 +14,6 @@ class ViewController: UIViewController {
         let docPath = paths[0]
         print(docPath)
         
-        // Temp 디렉토리
-//        let tempPath = NSTemporaryDirectory()
-//        print(tempPath)
-        
         let applicationSupportPaths = NSSearchPathForDirectoriesInDomains(.applicationSupportDirectory, .userDomainMask, true)
         let applicationSupportPath = applicationSupportPaths[0]
         print(applicationSupportPath)
